@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner
+{
+    background-color: #45a049;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #95eb8d;
+    padding: 15px 20px;
+}
+.navbar .logo
+ {
+    color: rgb(15, 15, 15);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-links 
+{
+    list-style: none;
+    display: flex;
+}
+.nav-links li 
+{
+    margin: 0 15px;
+}
+.nav-links a 
+{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover
+ {
+    color:rgb(26, 11, 235);
+ }
+ 
+.block1 h3
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.block1 p
+{
+    text-align: center;
+}
+.block1 ul
+{
+    text-align: center;
+}
+.block2 h3
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.block2 p
+{
+    text-align: center;
+}
+.block2 ul
+{
+    text-align: center;
+}
+.block3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color:black;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .contact-form h2 {
+    margin-bottom: 15px;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+footer 
+{
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
